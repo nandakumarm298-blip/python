@@ -1,0 +1,11 @@
+from tkinter import*
+p=Tk()
+name=Label(p,text="Name").grid(row=0,column=0)
+e1=Entry(p).grid(row=0,column=1)
+password=Label(p,text="password").grid(row=1,column=0)
+e2=Entry(p).grid(row=1,column=1)
+insert=Button(p,text="Insert").grid(row=4,column=1)
+delete=Button(p,text="Delete").grid(row=4,column=2)
+update=Button(p,text="Update").grid(row=4,column=3)
+select=Button(p,text="Select").grid(row=6,column=4)
+p.mainloop()

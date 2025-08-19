@@ -1,0 +1,5 @@
+f=open("demo.txt","a")
+f.write("hai")
+f.close()
+f=open("demo.txt","r")
+print(f.read())
